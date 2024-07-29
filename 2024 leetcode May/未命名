@@ -1,0 +1,102 @@
+class Solution {
+public:
+    long long totalCost(vector<int>& costs, int k, int candidates) {
+        priority_queue<pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>>> heap;
+        int n = costs.size();
+        int can_l = candidates-1, can_r = n-candidates;
+        if (can_l < can_r){
+            for (int i=0; i<=can_l; i++){
+                heap.emplace(make_pair(costs[i], i));
+            }
+            for (int i=can_r; i<n; i++){
+                heap.emplace(make_pair(costs[i], i));
+            }
+        }
+        else{
+            for (int i=0; i<n; i++){
+                heap.emplace(make_pair(costs[i], i));
+            }
+        }
+        // cout << can_l << " " << can_r << endl;
+        long long res = 0;
+        for (int i=0; i<k; i++){
+            int c = heap.top().first, indx = heap.top().second;
+            res += c;
+            // cout << c << " " << indx << endl;
+            heap.pop();
+            if (can_l+1 < can_r){
+                if (indx <= can_l){
+                    can_l++;
+                    heap.emplace(make_pair(costs[can_l], can_l));
+                }
+                if (indx >= can_r){
+                    can_r--;
+                    heap.emplace(make_pair(costs[can_r], can_r));
+                }
+            }
+        }
+        return res;
+        // set<int> removed;
+        // long long res = 0;
+        // int n = costs.size();
+        // while (n > candidates && k > 0){
+        //     int tmp = 0, indx = n-1, r_eras = 0, r_num = INT_MAX;
+        //     while (tmp < candidates){
+        //         if (removed.count(indx)){
+        //             indx--;
+        //             continue;
+        //         }
+        //         tmp++;
+        //         if (costs[indx] < r_num){
+        //             r_num = costs[indx];
+        //             r_eras = indx;
+        //         }
+        //         indx--;
+        //     }
+        //     // cout << "r_num:" << r_num << " r_eras:" << r_eras << endl;
+        //     tmp = 0;
+        //     indx = 0;
+        //     int l_eras = 0, l_num = INT_MAX;
+        //     while (tmp < candidates){
+        //         if (removed.count(indx)){
+        //             indx++;
+        //             continue;
+        //         }
+        //         tmp++;
+        //         if (costs[indx] < l_num){
+        //             l_num = costs[indx];
+        //             l_eras = indx;
+        //         }
+        //         indx++;
+        //     }
+        //     if (l_num < r_num){
+        //         removed.insert(l_eras);
+        //         // cout << l_eras << endl;
+        //     }
+        //     if (r_num < l_num){
+        //         removed.insert(r_eras);
+        //         // cout << r_eras << endl;
+        //     }
+        //     if (l_num == r_num){
+        //         removed.insert(min(l_eras, r_eras));
+        //         // cout << min(l_eras, r_eras) << endl;
+        //     }
+        //     res += min(l_num, r_num);
+        //     k--;
+        //     n--;
+        // }
+        // if (k == 0) return res;
+        // vector<int> new_cost;
+        // for (int i=0; i<costs.size(); i++){
+        //     if (removed.count(i) == 0){
+        //         new_cost.push_back(costs[i]);
+        //     }
+        // }
+        // sort(new_cost.begin(), new_cost.end());
+        // // for (int i : new_cost) cout << i << " ";
+        // for (int i=0; i<k; i++){
+        //     res += new_cost[i];
+        // }
+        // return res;
+    }
+};
