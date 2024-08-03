@@ -8,6 +8,8 @@ using namespace std;
 class Solution {
 public:
     int maxPointsInsideSquare(vector<vector<int>>& points, string s) {
+        // 以每一个元素作为正方形的一个顶点，计算此时正方形的半边长，将所有的半边长从小到大排序，再遍历一遍，什么时候有一个标签出现了两次，就再往回找，直到找到第一个不同于当前半边长的节点，返回答案即可
+        // 如果没有任何一个标签出现了两次，就直接返回答案即可
         vector<pair<int, int>> vp;
         int n = points.size();
         for (int i=0; i<n; i++){
