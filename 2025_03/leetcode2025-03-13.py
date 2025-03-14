@@ -28,6 +28,7 @@ class Solution:
                     l += 1
                 res += l
             return res
+        # 所以，最终的答案就是word中至少k个辅音字母的子字符串的数量减去至少k+1个辅音字母的子字符串的数量
         return myCount(k)-myCount(k+1)
 
 if __name__ == "__main__":
