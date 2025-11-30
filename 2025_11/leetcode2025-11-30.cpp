@@ -18,6 +18,7 @@ public:
             return 0;
         }
 
+        // 自定义哈希表中的默认值
         struct init{
             int num = INT_MIN/2;
         };
