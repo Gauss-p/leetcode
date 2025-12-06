@@ -10,6 +10,7 @@ class Solution:
         # 综上，我们只需要维护两个单调栈，一个左端点，以及一个dp部分前缀和即可
         n = len(nums)
         modNum = 1_000_000_007
+        # 两个单调栈
         minQueue = deque() # 维护最小值
         maxQueue = deque() # 维护最大值
         dp = [0]*(n+1) # 动态规划数组
