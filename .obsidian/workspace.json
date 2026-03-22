@@ -182,9 +182,19 @@
   },
   "active": "50ee67ce1e03404c",
   "lastOpenFiles": [
-    "10.Math数学/leetcode_1622_Fancy.md",
+    "18.SegmentTree线段树/leetcode_3454_separateSquares.py",
+    "18.SegmentTree线段树",
+    "17.Trie字典树/leetcode_2977_minimumCost.py",
+    "17.Trie字典树/leetcode_2977_minimumCost.cpp",
+    "17.Trie字典树",
+    "16.Dijkstra最短路/leetcode_2977_minimumCost.py",
+    "16.Dijkstra最短路/leetcode_2977_minimumCost.cpp",
+    "15.BinarySearch二分查找/leetcode_3453_separateSquares.py",
+    "04.Simulation模拟/leetcode_3047_largestSquareArea.cpp",
+    "04.Simulation模拟/leetcode_1886_findRotation.py",
+    "04.Simulation模拟/leetcode_1886_findRotation.cpp",
+    "Error_Solutions/git_pull_error.md",
     "题单.md",
-    "1.txt",
-    "2.txt"
+    "10.Math数学/leetcode_1622_Fancy.md"
   ]
 }
