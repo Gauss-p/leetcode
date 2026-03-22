@@ -1,38 +1,24 @@
 {
   "main": {
-    "id": "f3c17f071fa9260c",
+    "id": "f2cdd05e99bd7ab7",
     "type": "split",
     "children": [
       {
-        "id": "5982b984466f3dc7",
+        "id": "a99f1c312714418f",
         "type": "tabs",
         "children": [
           {
-            "id": "50ee67ce1e03404c",
+            "id": "d6db3b7449bdf270",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "题单.md",
+                "file": "19.LogTrick算法/leetcode494场周赛Q4(leetcode3878).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "题单"
-            }
-          },
-          {
-            "id": "72d431509196dbb7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "10.Math数学/leetcode_1622_Fancy.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "leetcode_1622_Fancy"
+              "title": "leetcode494场周赛Q4(leetcode3878)"
             }
           }
         ]
@@ -41,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "b58987b7297be221",
+    "id": "a42118476a6325c4",
     "type": "split",
     "children": [
       {
-        "id": "73463d96fe895027",
+        "id": "d9ad9b3e5137655c",
         "type": "tabs",
         "children": [
           {
-            "id": "d14ad4fba0769461",
+            "id": "5fbaab37f7ba43f8",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -62,7 +48,7 @@
             }
           },
           {
-            "id": "0136ed8e8277e244",
+            "id": "a4eb92fd868906c8",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -79,7 +65,7 @@
             }
           },
           {
-            "id": "6f3064e855e37bb2",
+            "id": "1f0d11799c69af44",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -95,19 +81,20 @@
     "width": 300
   },
   "right": {
-    "id": "51f8e22be9fd25fd",
+    "id": "eb4ae25d16c1ca67",
     "type": "split",
     "children": [
       {
-        "id": "1e2d1bc00cf7b3f3",
+        "id": "e14022e84a2fadc9",
         "type": "tabs",
         "children": [
           {
-            "id": "56f2bae5e8d0096a",
+            "id": "2fb402e49713df3e",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "19.LogTrick算法/leetcode494场周赛Q4.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,24 +104,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "反向链接"
+              "title": "leetcode494场周赛Q4 的反向链接列表"
             }
           },
           {
-            "id": "8e5a8acf275292fe",
+            "id": "e1f988abf6ef8999",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "19.LogTrick算法/leetcode494场周赛Q4.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "出链"
+              "title": "leetcode494场周赛Q4 的出链列表"
             }
           },
           {
-            "id": "b936153ace4eafdd",
+            "id": "74e2ef3740affc03",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -149,17 +137,18 @@
             }
           },
           {
-            "id": "0e0d82a973498a48",
+            "id": "c2298bd748382e29",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
+                "file": "19.LogTrick算法/leetcode494场周赛Q4.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "leetcode494场周赛Q4 的大纲"
             }
           }
         ]
@@ -171,38 +160,17 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "bases:新建数据库": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false
     }
   },
-  "active": "50ee67ce1e03404c",
+  "active": "d6db3b7449bdf270",
   "lastOpenFiles": [
-<<<<<<< HEAD
-    "Error_Solutions/git_pull_error.md",
-    "题单.md",
-    "10.Math数学/leetcode_1622_Fancy.md",
-    "1.txt",
-    "2.txt"
-=======
-    "18.SegmentTree线段树/leetcode_3454_separateSquares.py",
-    "18.SegmentTree线段树",
-    "17.Trie字典树/leetcode_2977_minimumCost.py",
-    "17.Trie字典树/leetcode_2977_minimumCost.cpp",
-    "17.Trie字典树",
-    "16.Dijkstra最短路/leetcode_2977_minimumCost.py",
-    "16.Dijkstra最短路/leetcode_2977_minimumCost.cpp",
-    "15.BinarySearch二分查找/leetcode_3453_separateSquares.py",
-    "04.Simulation模拟/leetcode_3047_largestSquareArea.cpp",
-    "04.Simulation模拟/leetcode_1886_findRotation.py",
-    "04.Simulation模拟/leetcode_1886_findRotation.cpp",
-    "Error_Solutions/git_pull_error.md",
-    "题单.md",
-    "10.Math数学/leetcode_1622_Fancy.md"
->>>>>>> main
+    "19.LogTrick算法/leetcode494场周赛Q4(leetcode3878).md"
   ]
 }
