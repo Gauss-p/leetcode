@@ -49,8 +49,7 @@
               "title": "498场周赛Q4. 统计网格路径中好整数的数目"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -198,7 +197,7 @@
       "bases:新建数据库": false
     }
   },
-  "active": "5fbaab37f7ba43f8",
+  "active": "982e6313b9251db6",
   "lastOpenFiles": [
     "01.DFS递归/498场周赛Q4. 统计网格路径中好整数的数目.md",
     "3883. 统计满足数位和数组的非递减数组数目.md",
