@@ -3,6 +3,7 @@
 #include <unordered_map>
 using namespace std;
 
+
 int maxNum = 1000001;
 vector<vector<int>> factors(maxNum);
 int init = []{
