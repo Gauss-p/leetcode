@@ -77,6 +77,7 @@ class Solution:
         for x,y in queries:
             x -= 1
             y -= 1
+            # 计算两点间距离
             cur = calc.depth[x]+calc.depth[y]-2*calc.depth[calc.lca(x, y)]
             if cur > 0:
                 res.append(pow(2, cur-1, modNum))
